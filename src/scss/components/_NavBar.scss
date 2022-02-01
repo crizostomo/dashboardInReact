@@ -1,0 +1,55 @@
+@mixin getNavbarStyyles {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        .container {
+            display: flex;
+            .search {
+                background-color: #b0c4de;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 2rem;
+                padding: 0.5rem 1rem;
+                color: #191970;
+                gap: 1rem;
+                font-size: 1.5rem;
+                input {
+                    border: none;
+                    color: #191970;
+                    background-color: #b0c4de;
+                    &:focus {
+                        outline: none;
+                    }
+                }
+            }
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-left: 1rem;
+            .bell {
+                font-size: 1.4rem;
+                color: #191970;
+            }
+            .image {
+                img {
+                    height: 3rem;
+                    border-radius: 2rem;
+                }
+            }
+        }
+    }
+    .title, .profile_name {
+        color: #191970;
+    }
+    .option1 {
+        color: green;
+        font-size: 1.8rem;
+    }
+    .option2 {
+        color: green;
+        font-size: 1.0rem;
+    }
+}

@@ -1,0 +1,17 @@
+@mixin getTempoMedioStyles(){
+    .tempoMedios {
+        height: 100%;
+        margin-left: 0rem;
+        background-color: white;
+        border-radius: 1rem;
+        padding: 1.5rem 2rem;
+        .graph {
+            height: 80%;
+        }
+    }
+    .chartBox {
+        margin-left: 0rem;
+        width: 675px;
+        height: 250px;
+    }
+}
